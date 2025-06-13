@@ -16,7 +16,7 @@ library('stringi')
 #           - User (AudUser) = [user id]
 # 
 #   2) Report out the results. 
-#     - Use the "" report.
+#     - Use the "irn and data for old-v-new" report.
 #
 #
 # II. In a file explorer             ####
@@ -26,7 +26,7 @@ library('stringi')
 #
 # III.  In R / RStudio               ####
 # 
-#   1) Run this "recordsRecover.R" script
+#   1) Run this "recordRecover.R" script
 #
 
 
