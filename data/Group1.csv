@@ -1,0 +1,87 @@
+Group1_key,eaudit_key,irn,AudKey,AudDate,AudGroup,AudOldValue,AudNewValue
+1,1,573339118,2802935,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2957793</atom></tuple></table>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3091/150/IZ_M_21-40.pdf</atom>
+2,1,573339118,2802935,2025-06-09,IZMgr,DarDateLastModified: <atom>2025-4-21T15:13:10.000CMT</atom>,MulMultiMediaRef_tab: <table><tuple><atom>3091150</atom></tuple></table>
+3,1,573339118,2802935,2025-06-09,IZMgr,AdmTimeModified: <atom>15:13:10.000</atom>,DarDateLastModified: <atom>2025-6-9T19:13:21.000CMT</atom>
+4,1,573339118,2802935,2025-06-09,IZMgr,AdmDateModified: <atom>2025-04-21</atom>,AdmTimeModified: <atom>19:13:21.000</atom>
+5,1,573339118,2802935,2025-06-09,IZMgr,IdeHasTypeStatus: <atom>N</atom>,AdmDateModified: <atom>2025-06-09</atom>
+6,1,573339118,2802935,2025-06-09,IZMgr,GeoValuation: <atom>No</atom>,
+7,2,573339144,4642236,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2552/932/59_Cavolinia_tridentata_label_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3092/993/IZ_M_41-60.pdf</atom>
+8,2,573339144,4642236,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2552932</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3092993</atom></tuple></table>
+9,2,573339144,4642236,2025-06-09,IZMgr,DarDateLastModified: <atom>2024-4-17T17:48:11.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:13:29.000CMT</atom>
+10,2,573339144,4642236,2025-06-09,IZMgr,AdmTimeModified: <atom>17:48:11.000</atom>,AdmTimeModified: <atom>19:13:29.000</atom>
+11,2,573339144,4642236,2025-06-09,IZMgr,AdmModifiedBy: <atom>K</atom>,AdmModifiedBy: <atom>S</atom>
+12,2,573339144,4642236,2025-06-09,IZMgr,AdmDateModified: <atom>2024-04-17</atom>,AdmDateModified: <atom>2025-06-09</atom>
+13,2,573339144,4642236,2025-06-09,IZMgr,IdeHasTypeStatus: <atom>N</atom>,
+14,2,573339144,4642236,2025-06-09,IZMgr,GeoValuation: <atom>No</atom>,
+15,3,573339145,4642239,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2552/929/61_Diacria_trispinosa_label_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3086/781/IZ_M_61_80.pdf</atom>
+16,3,573339145,4642239,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2552929</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3086781</atom></tuple></table>
+17,3,573339145,4642239,2025-06-09,IZMgr,DarDateLastModified: <atom>2024-4-17T17:48:10.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:13:30.000CMT</atom>
+18,3,573339145,4642239,2025-06-09,IZMgr,AdmTimeModified: <atom>17:48:10.000</atom>,AdmTimeModified: <atom>19:13:30.000</atom>
+19,3,573339145,4642239,2025-06-09,IZMgr,AdmModifiedBy: <atom>K</atom>,AdmModifiedBy: <atom>S</atom>
+20,3,573339145,4642239,2025-06-09,IZMgr,AdmDateModified: <atom>2024-04-17</atom>,AdmDateModified: <atom>2025-06-09</atom>
+21,3,573339145,4642239,2025-06-09,IZMgr,IdeHasTypeStatus: <atom>N</atom>,
+22,3,573339145,4642239,2025-06-09,IZMgr,GeoValuation: <atom>No</atom>,
+23,4,573339146,4642241,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2552/930/62_Diacria_trispinosa_label_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3086/781/IZ_M_61_80.pdf</atom>
+24,4,573339146,4642241,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2552930</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3086781</atom></tuple></table>
+25,4,573339146,4642241,2025-06-09,IZMgr,DarDateLastModified: <atom>2024-4-17T17:48:10.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:13:30.000CMT</atom>
+26,4,573339146,4642241,2025-06-09,IZMgr,AdmTimeModified: <atom>17:48:10.000</atom>,AdmTimeModified: <atom>19:13:30.000</atom>
+27,4,573339146,4642241,2025-06-09,IZMgr,AdmModifiedBy: <atom>K</atom>,AdmModifiedBy: <atom>S</atom>
+28,4,573339146,4642241,2025-06-09,IZMgr,AdmDateModified: <atom>2024-04-17</atom>,AdmDateModified: <atom>2025-06-09</atom>
+29,4,573339146,4642241,2025-06-09,IZMgr,IdeHasTypeStatus: <atom>N</atom>,
+30,4,573339146,4642241,2025-06-09,IZMgr,GeoValuation: <atom>No</atom>,
+31,5,573339242,400162,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2245/993/165_Polygyratia_polygyrata_umbilical_FMNH_IZ.jpg|http://fm-digital-assets.fieldmuseum.org/2245/968/165_Polygyratia_polygyrata_apical_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3094/850/IZ_M_161-180.pdf</atom>
+32,5,573339242,400162,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2245993</atom></tuple><tuple><atom>2245968</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3094850</atom></tuple></table>
+33,5,573339242,400162,2025-06-09,IZMgr,DarDateLastModified: <atom>2023-11-20T09:16:17.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:14:0.000CMT</atom>
+34,5,573339242,400162,2025-06-09,IZMgr,AdmTimeModified: <atom>09:16:17.000</atom>,AdmTimeModified: <atom>19:14:00.000</atom>
+35,5,573339242,400162,2025-06-09,IZMgr,AdmDateModified: <atom>2023-11-20</atom>,AdmDateModified: <atom>2025-06-09</atom>
+36,5,573339242,400162,2025-06-09,IZMgr,AdmModifiedBy: <atom>emu</atom>,AdmModifiedBy: <atom>S</atom>
+37,5,573339242,400162,2025-06-09,IZMgr,,IdeHasTypeStatus: <atom>N</atom>
+38,5,573339242,400162,2025-06-09,IZMgr,,GeoValuation: <atom>No</atom>
+39,6,573339699,4624195,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2493/325/701_Bulla_solida_label_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3087/287/IZ_M_701_720.pdf</atom>
+40,6,573339699,4624195,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2493325</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3087287</atom></tuple></table>
+41,6,573339699,4624195,2025-06-09,IZMgr,DarDateLastModified: <atom>2024-4-17T17:45:19.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:16:24.000CMT</atom>
+42,6,573339699,4624195,2025-06-09,IZMgr,AdmTimeModified: <atom>17:45:19.000</atom>,AdmTimeModified: <atom>19:16:24.000</atom>
+43,6,573339699,4624195,2025-06-09,IZMgr,AdmModifiedBy: <atom>K</atom>,AdmModifiedBy: <atom>S</atom>
+44,6,573339699,4624195,2025-06-09,IZMgr,AdmDateModified: <atom>2024-04-17</atom>,AdmDateModified: <atom>2025-06-09</atom>
+45,6,573339699,4624195,2025-06-09,IZMgr,IdeHasTypeStatus: <atom>N</atom>,
+46,6,573339699,4624195,2025-06-09,IZMgr,GeoValuation: <atom>No</atom>,
+47,7,573339705,4670777,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2552/712/736_Atlanta_peronii_label_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3087/398/IZ_M_721-740.pdf</atom>
+48,7,573339705,4670777,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2552712</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3087398</atom></tuple></table>
+49,7,573339705,4670777,2025-06-09,IZMgr,DarDateLastModified: <atom>2024-4-17T17:48:05.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:16:26.000CMT</atom>
+50,7,573339705,4670777,2025-06-09,IZMgr,AdmTimeModified: <atom>17:48:05.000</atom>,AdmTimeModified: <atom>19:16:26.000</atom>
+51,7,573339705,4670777,2025-06-09,IZMgr,AdmModifiedBy: <atom>K</atom>,AdmModifiedBy: <atom>S</atom>
+52,7,573339705,4670777,2025-06-09,IZMgr,AdmDateModified: <atom>2024-04-17</atom>,AdmDateModified: <atom>2025-06-09</atom>
+53,7,573339705,4670777,2025-06-09,IZMgr,,IdeHasTypeStatus: <atom>N</atom>
+54,7,573339705,4670777,2025-06-09,IZMgr,,GeoValuation: <atom>No</atom>
+55,8,573339803,4757938,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2672/145/901_Jaspidella_jaspidea_label_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3090/041/IZ_M_901-920.pdf</atom>
+56,8,573339803,4757938,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2672145</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3090041</atom></tuple></table>
+57,8,573339803,4757938,2025-06-09,IZMgr,DarDateLastModified: <atom>2024-12-30T18:16:43.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:16:57.000CMT</atom>
+58,8,573339803,4757938,2025-06-09,IZMgr,AdmModifiedBy: <atom>J</atom>,AdmModifiedBy: <atom>S</atom>
+59,8,573339803,4757938,2025-06-09,IZMgr,AdmTimeModified: <atom>18:16:43.000</atom>,AdmTimeModified: <atom>19:16:57.000</atom>
+60,8,573339803,4757938,2025-06-09,IZMgr,AdmDateModified: <atom>2024-12-30</atom>,AdmDateModified: <atom>2025-06-09</atom>
+61,8,573339803,4757938,2025-06-09,IZMgr,,IdeHasTypeStatus: <atom>N</atom>
+62,8,573339803,4757938,2025-06-09,IZMgr,,GeoValuation: <atom>No</atom>
+63,9,573339804,4642114,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2552/979/941_Oliva_sayana_label_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3090/335/IZ_M_941-960.pdf</atom>
+64,9,573339804,4642114,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2552979</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3090335</atom></tuple></table>
+65,9,573339804,4642114,2025-06-09,IZMgr,DarDateLastModified: <atom>2024-5-24T11:55:38.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:16:58.000CMT</atom>
+66,9,573339804,4642114,2025-06-09,IZMgr,AdmTimeModified: <atom>11:55:38.000</atom>,AdmTimeModified: <atom>19:16:58.000</atom>
+67,9,573339804,4642114,2025-06-09,IZMgr,AdmModifiedBy: <atom>R</atom>,AdmModifiedBy: <atom>S</atom>
+68,9,573339804,4642114,2025-06-09,IZMgr,AdmDateModified: <atom>2024-05-24</atom>,AdmDateModified: <atom>2025-06-09</atom>
+69,9,573339804,4642114,2025-06-09,IZMgr,IdeHasTypeStatus: <atom>N</atom>,
+70,9,573339804,4642114,2025-06-09,IZMgr,GeoValuation: <atom>No</atom>,
+71,10,573339805,4629963,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2533/875/1009_Scaphella_junonia_label_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3054/475/IZ_M_1001_1020.pdf</atom>
+72,10,573339805,4629963,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2533875</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3054475</atom></tuple></table>
+73,10,573339805,4629963,2025-06-09,IZMgr,DarDateLastModified: <atom>2024-5-24T11:49:58.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:16:58.000CMT</atom>
+74,10,573339805,4629963,2025-06-09,IZMgr,AdmModifiedBy: <atom>R</atom>,AdmModifiedBy: <atom>S</atom>
+75,10,573339805,4629963,2025-06-09,IZMgr,AdmTimeModified: <atom>11:49:58.000</atom>,AdmTimeModified: <atom>19:16:58.000</atom>
+76,10,573339805,4629963,2025-06-09,IZMgr,AdmDateModified: <atom>2024-05-24</atom>,AdmDateModified: <atom>2025-06-09</atom>
+77,10,573339805,4629963,2025-06-09,IZMgr,IdeHasTypeStatus: <atom>N</atom>,
+78,10,573339805,4629963,2025-06-09,IZMgr,GeoValuation: <atom>No</atom>,
+79,11,573339806,4600133,2025-06-09,IZMgr,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/2467/492/1073_Fasciolaria_tulipa_label_FMNH_IZ.jpg</atom>,DarImageURL: <atom>http://fm-digital-assets.fieldmuseum.org/3054/825/IZ_M_1061_1080.pdf</atom>
+80,11,573339806,4600133,2025-06-09,IZMgr,MulMultiMediaRef_tab: <table><tuple><atom>2467492</atom></tuple></table>,MulMultiMediaRef_tab: <table><tuple><atom>3054825</atom></tuple></table>
+81,11,573339806,4600133,2025-06-09,IZMgr,DarDateLastModified: <atom>2024-5-24T11:54:17.000CMT</atom>,DarDateLastModified: <atom>2025-6-9T19:16:58.000CMT</atom>
+82,11,573339806,4600133,2025-06-09,IZMgr,AdmModifiedBy: <atom>R</atom>,AdmModifiedBy: <atom>S</atom>
+83,11,573339806,4600133,2025-06-09,IZMgr,AdmTimeModified: <atom>11:54:17.000</atom>,AdmTimeModified: <atom>19:16:58.000</atom>
+84,11,573339806,4600133,2025-06-09,IZMgr,AdmDateModified: <atom>2024-05-24</atom>,AdmDateModified: <atom>2025-06-09</atom>
+85,11,573339806,4600133,2025-06-09,IZMgr,,IdeHasTypeStatus: <atom>N</atom>
+86,11,573339806,4600133,2025-06-09,IZMgr,,GeoValuation: <atom>No</atom>
