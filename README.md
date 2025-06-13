@@ -1,20 +1,23 @@
 # 1. In EMu - Audit Trails module:
 
-**1.1. Retrieve eaudit records for affected records that need to be recalled.**
+**1.1. Retrieve Audit records.**
 
-For example, to find a user's edits to Catalog Multimedia-attachments, search for:  
+For example, to find a user's edits to existing Catalog records' Multimedia-attachments in 2025, search for:  
 - Module (AudTable) = ecatalogue
 - Operation (AudOperation) = update
 - Old Value (AudOldValue_tab) = MulMultiMediaRef_tab
 - User (AudUser) = [user id]
+- Date (AudDate) = 2025
  
-**1.2. Report out the results. **
+**1.2. Report out the Audit records.**
 
-Use the "irn and data for old-v-new" report.
+Use the "irn and data for old-v-new" CSV report.
 
 # 2. In a file explorer:
 
 **2.1.** Add the 'Group1.csv' report file to this repo's "data" directory.
+
+See the [example output CSV here](https://github.com/fieldmuseum/EMuAuditTools/blob/main/data/Group1.csv).
 
 # 3.  In R / RStudio:
 
