@@ -2,10 +2,11 @@
 
 **1.1. Retrieve Audit records.**
 
-For example, to find edits to existing Catalog records' Multimedia-attachments in 2025, search for:  
+For example, to find a user's edits to existing Catalog records' Multimedia-attachments in 2025, search for:  
 - Module (AudTable) = ecatalogue
 - Operation (AudOperation) = update
 - Old Value (AudOldValue_tab) = MulMultiMediaRef_tab
+- User (AudUser) = [user id]
 - Date (AudDate) = 2025
  
 **1.2. Report out the Audit records.**
