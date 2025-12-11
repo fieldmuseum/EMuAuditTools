@@ -1,3 +1,4 @@
+# Roll back records that were accidentally updated
 # check audit for modified MulMultiMediaRef_tab
 
 library('tidyr')
@@ -26,7 +27,7 @@ library('stringi')
 #
 # III.  In R / RStudio               ####
 # 
-#   1) Run this "recordRecover.R" script
+#   1) Run this "record_RollbackExisting.R" script
 #
 
 
