@@ -64,51 +64,34 @@ for (i in 1:NROW(raw_aud)) {
 
 raw_spread <- pivot_wider(raw_aud, id_cols = AudKey, names_from = AudColumnName, values_from = AudOldValue)
 
-# # cleanup raw values
-# for (i in 1:NROW(raw_spread)) {
-#   
-#   for (j in 2:NCOL(raw_spread)) {
-#     
-#     raw_spread[i,j] <- stri_replace_all_regex(raw_spread[i,j],
-#                                                paste0(colnames(raw_spread)[j], ':\\s*'),
-#                                                '')
-#     raw_spread[i,j] <- stri_replace_all_regex(raw_spread[i,j],
-#                                                '\\s*(</*(atom|table)>)+\\s*',
-#                                                '')
-#     raw_spread[i,j] <- stri_replace_all_regex(raw_spread[i,j],
-#                                                '\\s*(</*tuple>)+\\s*',
-#                                                '|')
-#     raw_spread[i,j] <- stri_replace_all_regex(raw_spread[i,j],
-#                                                '^\\||\\|$',
-#                                                '')
-#     
-#   }
-#   
-# }
 
-cols_to_keep <- c("AdmGUIDValue_tab", "AdmGUIDType_tab", "AdmGUIDIsPreferred_tab", 
+cols_to_keep <- c("AdmGUIDValue_tab", 
+                  "AdmGUIDType_tab", "AdmGUIDIsPreferred_tab", 
                   "AdmPublishWebNoPassword", "AdmPublishWebPassword",
-                  "CatMuseum", "CatDepartment", "CatCatalog", "CatCatalogSubset",
+                  "CatMuseum", "CatDepartment",
+                  "CatCatalog", "CatCatalogSubset",
                   "CatCatalogueNo", "CatProjectIz_tab", "CatRecordType", 
                   "ColCollectionEventRef", 
                   "ConConditionPeriodType", "DeaTransferOfTitle",
                   "DesKDescription0", "DesKPreferred_tab", "DesKType_tab", 
                   "GeoHazardous", "GeoProcessed", "GeoValuation",
                   "IdeTaxonRef_tab", "IdeFiledAs_tab", "IdeHasTypeStatus",
-                  "LocFisCurrentLocation_tab", "LotDescription_tab", "LotOwnerRef_tab",
+                  "LocFisCurrentLocation_tab",
+                  "LotDescription_tab", "LotOwnerRef_tab",
                   "LotCountDry", "LotCountWet", "LotDry", "LotTypeStatus",
                   "PhePrepPartID_tab", "PreCount_tab", 
                   # "PreMammalsPrepType_tab", "PreOPrepType_tab",
                   "PriAccessionNumberRef",
                   "PriSiteRef",
                   "PriSiteCENumberRef",
-                  "PriTissue", "PriXray", "PrvCurrentStorage_tab", "PrvEventSequence_tab", "PrvPreservation_tab", "PrvSeries_tab",
+                  "PriTissue", "PriXray", 
+                  "PrvCurrentStorage_tab", "PrvEventSequence_tab", 
+                  "PrvPreservation_tab", "PrvSeries_tab",
                   "RelIsParent", "SecDepartment_tab", "SecRecordStatus", 
                   "SpeHReceivedAs", 
                   "ValValuationPeriodType"
                   )
 
-# only keep specified columns (drop un-editable Local & Dar fields)
 raw_spread2 <- raw_spread[,c('irn', sort(cols_to_keep))]
 
 for (j in 1:NCOL(raw_spread2)) {
@@ -124,20 +107,13 @@ for (j in 1:NCOL(raw_spread2)) {
 }
 
 
-# parse table-values
-for (j in 2:NCOL(raw_spread2)) {
-  # print(colnames(raw_spread2)[i])
+table_cols <- colnames(raw_spread2)[grepl("_tab|0", colnames(raw_spread2)) > 0]
 
-  if (FALSE %in% is.na(stri_match_last_regex(colnames(raw_spread2)[j], '(_tab|0)$'))) {
-    print(paste('splitting values for ', colnames(raw_spread2)[j]))
 
-    raw_spread2 <- separate_wider_delim(raw_spread2, colnames(raw_spread2)[j], 
-                                        names_sep = "_",  '|',
-                                        too_few = 'align_start')
-      
-  }
-}
-
+raw_spread2 <- raw_spread2 %>%
+  separate_wider_delim(all_of(table_cols),
+                       names_sep = "_",  '|',
+                       too_few = 'align_start')
 
 # Prep colnames for import
 colnames(raw_spread2) <- stri_replace_all_regex(colnames(raw_spread2),
